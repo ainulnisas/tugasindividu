@@ -25,56 +25,6 @@
   opacity: 1;
 }
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-/*Disable aos animation delay on mobile devices*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
 .hero{
   position: relative;
   width: 100%;
@@ -568,6 +518,9 @@ nav ul li a:hover{
   .tulisan p{
       padding-right: 70%;
   }
+  .about-text p{
+    padding: 0 0;
+  }
 }
 
 @media (min-width: 413px) and (max-width: 506px){
@@ -582,6 +535,9 @@ nav ul li a:hover{
   .tulisan a{
       box-sizing: 30px;
       font-size: 30px;
+  }
+  .about-text p{
+    padding: 0 0;
   }
 }
 
@@ -598,6 +554,9 @@ nav ul li a:hover{
       box-sizing: 20px;
       font-size: 20px;
   }
+  .about-text p{
+    padding: 0 0;
+  }
 }
 
 @media (min-width: 310px) and (max-width: 367px){
@@ -612,6 +571,9 @@ nav ul li a:hover{
   .tulisan a{
       box-sizing: 15px;
       font-size: 15px;
+  }
+  .about-text p{
+    padding: 0 0;
   }
 }
 
@@ -628,6 +590,9 @@ nav ul li a:hover{
       box-sizing: 9.5px;
       font-size: 9.5px;
   }
+  .about-text p{
+    padding: 0 0;
+  }
 }
 
 @media (min-width: 200px) and (max-width: 291px){
@@ -642,6 +607,9 @@ nav ul li a:hover{
   .tulisan a{
       box-sizing: 8px;
       font-size: 8px;
+  }
+  .about-text p{
+    padding: 0 0;
   }
 }
 
@@ -728,7 +696,11 @@ nav ul li a:hover{
   .images{
       width: 8%;
       height: 37%;
-      margin-bottom: 47%;
+      margin-bottom: 35%;
+  }
+  .about-container img{
+    width: 100%;
+    margin-left: 6%;
   }
 }
 
