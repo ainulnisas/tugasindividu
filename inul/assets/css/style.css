@@ -560,3 +560,222 @@ nav ul li a:hover{
 #footer .copyright {
   margin: 0 0 5px 0;
 }
+
+@media (min-width: 507px) and (max-width: 1132px){
+  .tulisan h1{
+      padding-right: 70%;
+  }
+  .tulisan p{
+      padding-right: 70%;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 506px){
+  .tulisan h1{
+      padding-right: 70%;
+      font-size: 40px;
+  }
+  .tulisan p{
+      padding-right: 70%;
+      font-size: 15px;
+  }
+  .tulisan a{
+      box-sizing: 30px;
+      font-size: 30px;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 412px){
+  .tulisan h1{
+      padding-right: 70%;
+      font-size: 35px;
+  }
+  .tulisan p{
+      padding-right: 70%;
+      font-size: 15px;
+  }
+  .tulisan a{
+      box-sizing: 20px;
+      font-size: 20px;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 367px){
+  .tulisan h1{
+      padding-right: 70%;
+      font-size: 28px;
+  }
+  .tulisan p{
+      padding-right: 70%;
+      font-size: 10px;
+  }
+  .tulisan a{
+      box-sizing: 15px;
+      font-size: 15px;
+  }
+}
+
+@media (min-width: 292px) and (max-width: 309px){
+  .tulisan h1{
+      padding-right: 70%;
+      font-size: 23px;
+  }
+  .tulisan p{
+      padding-right: 70%;
+      font-size: 10px;
+  }
+  .tulisan a{
+      box-sizing: 9.5px;
+      font-size: 9.5px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 291px){
+  .tulisan h1{
+      padding-right: 70%;
+      font-size: 20px;
+  }
+  .tulisan p{
+      padding-right: 70%;
+      font-size: 9px;
+  }
+  .tulisan a{
+      box-sizing: 8px;
+      font-size: 8px;
+  }
+}
+
+@media (min-width: 1123px) and (max-width: 1132px){
+  .images{
+      width: 42%;
+      height: 75%;
+  }
+}
+
+@media (min-width: 943px) and (max-width: 1122px){
+  .images{
+      width: 38%;
+      height: 70%;
+      margin-bottom: 9%;
+  }
+}
+
+@media (min-width: 849px) and (max-width: 942px){
+  .images{
+      width: 34%;
+      height: 66%;
+      margin-bottom: 15%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 848px){
+  .images{
+      width: 30%;
+      height: 62%;
+      margin-bottom: 18%;
+  }
+}
+
+@media (min-width: 573px) and (max-width: 799px){
+  .images{
+      width: 26%;
+      height: 58%;
+      margin-bottom: 23%;
+  }
+}
+
+@media (min-width: 532px) and (max-width: 572px){
+  .images{
+      width: 22%;
+      height: 54%;
+      margin-bottom: 23%;
+  }
+}
+
+@media (min-width: 511px) and (max-width: 531px){
+  .images{
+      width: 18%;
+      height: 50%;
+      margin-bottom: 30%;
+  }
+}
+
+@media (min-width: 442px) and (max-width: 510px){
+  .images{
+      width: 12%;
+      height: 42%;
+      margin-bottom: 50%;
+  }
+}
+
+@media (min-width: 422px) and (max-width: 441px){
+  .images{
+      width: 12%;
+      height: 42%;
+      margin-bottom: 48%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 421px){
+  .images{
+      width: 10%;
+      height: 40%;
+      margin-bottom: 45%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 399px){
+  .images{
+      width: 8%;
+      height: 37%;
+      margin-bottom: 47%;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 374px){
+  .images{
+      width: 5%;
+      height: 35%;
+      margin-bottom: 50%;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 367px){
+  .images{
+      width: 4%;
+      height: 33%;
+      margin-bottom: 65%;
+  }
+}
+
+@media (min-width: 318px) and (max-width: 355px){
+  .images{
+      width: 2%;
+      height: 30%;
+      margin-bottom: 73%;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 317px){
+  .images{
+      width: 1%;
+      height: 28%;
+      margin-bottom: 76%;
+  }
+}
+
+@media (min-width: 292px) and (max-width: 309px){
+  .images{
+      width: 0.3%;
+      height: 25%;
+      margin-bottom: 90%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 291px){
+  .images{
+      width: 0.1%;
+      height: 20%;
+      margin-bottom: 110%;
+  }
+}
